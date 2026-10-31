@@ -1,0 +1,19 @@
+.task {
+  color: gray;
+  width: 300px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.tick {
+  float: right;
+  display: none;
+}
+
+.done {
+  color: green;
+}
+
+.done .tick {
+  display: inline;
+}
